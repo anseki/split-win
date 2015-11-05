@@ -6,7 +6,7 @@
 
 Param(
   [Parameter(Mandatory=$True)] [string] $path,
-  [long] $size = 32mb, # split size 32mb
+  [long] $size = 256mb, # split size 256mb
   [switch] $noJoin = $False,
   [switch] $noTest = $False,
   [switch] $noSum = $False

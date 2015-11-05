@@ -53,7 +53,7 @@ The target file path.
 ### `-size`
 
 The size of the split files that is a number as bytes or a number with an unit such as `5kb`, `5mb`, `5gb`, etc..  
-This is optional. The default is `32mb`.
+This is optional. The default is `256mb`.
 
 For example, split a `test.zip` to 640mb files.
 
