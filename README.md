@@ -6,7 +6,7 @@ This splits a big file to specific size files. And also, it creates a list of fi
 
 ## Usage
 
-It is recommended to save the `split.ps1` and `split.cmd` files into the `Path` folder such as `C:\Windows\System32`, to be able to use from everywhere.
+It is recommended to save the `split.ps1` and `split.cmd` files into the `Path` folder such as `C:\Windows\System32`, to be able to use from anywhere.
 
 Run this command in console:
 
