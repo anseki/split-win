@@ -67,6 +67,7 @@ if ($streamDest -ne $Null -and $destBytes -gt 0) {
   $destList.Add($pathDest)
   'Saved File: {0}' -f (Split-Path $pathDest -Leaf)
 }
+$streamSrc.Close()
 
 # join command
 [string] $cmdJoin = 'COPY /b ' + [string]::Join(' +', $destList.ToArray())
